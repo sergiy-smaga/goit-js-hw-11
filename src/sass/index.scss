@@ -1,0 +1,33 @@
+.load-more {
+  display: none;
+}
+.shown {
+  display: block;
+  margin: 0 auto;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+}
+a {
+  display: inline-block;
+}
+.info {
+  display: flex;
+  justify-content: space-around;
+}
+.search-form {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: cyan;
+  position: sticky;
+  top: 0;
+}
